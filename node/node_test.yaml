@@ -1,6 +1,6 @@
 ---
 # Правило проверки использования test
-id: node-disk-usage-simple
+id: node-disk-usage-simple-test
 name: Проверка использования test
 description: Проверяет использование test на корневом разделе
 type: node
