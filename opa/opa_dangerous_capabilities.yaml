@@ -126,12 +126,12 @@ config:
       }
 
 
-# Конфигурация утверждений
-assertions:
-  - name: "Проверка опасных возможностей"
-    condition: "violation_count == 0"
-    severity: high
-    description: "Обнаружено {{ violation_count }} контейнеров с опасными возможностями"
+  # Конфигурация утверждений
+  assertions:
+    - name: "Проверка опасных возможностей"
+      condition: "violation_count == 0"
+      severity: high
+      description: "Обнаружено {{ violation_count }} контейнеров с опасными возможностями"
 
 
 # Рекомендации по устранению проблемы
